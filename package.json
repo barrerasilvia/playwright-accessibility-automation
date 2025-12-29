@@ -1,0 +1,27 @@
+{
+  "name": "playwright-accessibility-automation",
+  "version": "1.0.0",
+  "description": "This repository demonstrates **real-world strategies for accessibility automation**\r using **Playwright** and **axe-core**.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barrerasilvia/playwright-accessibility-automation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barrerasilvia/playwright-accessibility-automation/issues"
+  },
+  "homepage": "https://github.com/barrerasilvia/playwright-accessibility-automation#readme",
+  "devDependencies": {
+    "@axe-core/playwright": "^4.11.0",
+    "@playwright/test": "^1.57.0"
+  }
+}
