@@ -63,7 +63,7 @@ WCAG 2.2 introduces success criteria that require manual evaluation, such as:
 - Consistent help availability
 
 For these criteria, **manual testing is required**.
----
+
 ## ▶️ Running the tests
 
 ```bash
