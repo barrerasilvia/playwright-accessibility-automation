@@ -39,12 +39,31 @@ of accessibility is consistently maintained.
 
 ## ⚠️ Important Notes
 
-- Automated testing **cannot detect all accessibility issues**.
+- Automated accessibility testing **cannot detect all accessibility issues**.
 - Manual testing with assistive technologies is still required.
-- Axe is used here only where it provides real value.
+- Axe-core is used only where it provides real value.
+- WCAG 2.2 conformance includes several success criteria that **cannot be reliably automated**.
 
 ---
+## 📋 WCAG Coverage
 
+Automated accessibility checks in this project are aligned with:
+
+- WCAG 2.0 Level A and AA
+- WCAG 2.1 Level A and AA
+
+While some automated rules may conceptually relate to WCAG 2.2,
+**full WCAG 2.2 conformance cannot be achieved through automation alone**.
+
+WCAG 2.2 introduces success criteria that require manual evaluation, such as:
+
+- Focus visibility
+- Target size requirements
+- Dragging alternatives
+- Consistent help availability
+
+For these criteria, **manual testing is required**.
+---
 ## ▶️ Running the tests
 
 ```bash
